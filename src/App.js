@@ -34,3 +34,26 @@ function App() {
 }
 
 export default App;
+
+// const addToCartButtons = document.querySelectorAll('.add-to-cart');
+// const cartItems = document.querySelector('.cart-items');
+// const totalCost = document.querySelector('.total-cost');
+// let cartTotal = 0;
+
+// addToCartButtons.forEach(button => {
+//   button.addEventListener('click', () => {
+//     const item = button.closest('.item');
+//     const itemName = item.querySelector('h5').innerHTML;
+//     const itemPriceText = item.querySelector('h6').innerHTML.replace('Price: $', '');
+//     const itemPrice = Number(itemPriceText);
+ 
+//     const cartItem = document.createElement('li');
+//     cartItem.innerHTML = `${itemName} - $${itemPrice}`;
+
+//     cartItems.appendChild(cartItem);
+
+//     cartTotal += itemPrice;
+//     totalCost.innerHTML = cartTotal.toFixed(2);
+//   });
+// });
+
